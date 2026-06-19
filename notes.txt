@@ -1,0 +1,2 @@
+one
+writing something to same file using read+ method in open
