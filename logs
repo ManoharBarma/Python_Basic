@@ -1,0 +1,7 @@
+INFO Application Started
+INFO Loading Config
+WARNING High Memory Usage
+ERROR Database Connection Failed
+INFO Retrying...
+ERROR Authentication Failed
+INFO Shutdown Complete
