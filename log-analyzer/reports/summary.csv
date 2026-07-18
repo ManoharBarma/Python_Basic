@@ -1,0 +1,16 @@
+Metric,Value
+Total Logs,16
+INFO Count,11
+WARNING Count,2
+ERROR Count,3
+ERROR %,18.75
+WARNING %,12.5
+
+Top Errors,Count
+Database Timeout,1
+API Connection Failed,1
+Database Timeout2026-07-18 15:50:32 - LogAnalyzer - INFO - Started analyzer,1
+
+Hourly Counts (Hour),Count
+09,9
+15,7

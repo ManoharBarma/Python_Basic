@@ -1,0 +1,88 @@
+{
+    "total_logs": 16,
+    "info_count": 11,
+    "warning_count": 2,
+    "error_count": 3,
+    "error_percentage": 18.75,
+    "warning_percentage": 12.5,
+    "top_errors": [
+        {
+            "message": "Database Timeout",
+            "count": 1
+        },
+        {
+            "message": "API Connection Failed",
+            "count": 1
+        },
+        {
+            "message": "Database Timeout2026-07-18 15:50:32 - LogAnalyzer - INFO - Started analyzer",
+            "count": 1
+        }
+    ],
+    "first_error": {
+        "date": "2026-07-18",
+        "time": "09:05:44",
+        "datetime": "2026-07-18 09:05:44",
+        "level": "ERROR",
+        "message": "Database Timeout"
+    },
+    "latest_error": {
+        "date": "2026-07-18",
+        "time": "09:15:00",
+        "datetime": "2026-07-18 09:15:00",
+        "level": "ERROR",
+        "message": "Database Timeout2026-07-18 15:50:32 - LogAnalyzer - INFO - Started analyzer"
+    },
+    "top_10_messages": [
+        {
+            "message": "Read file",
+            "count": 2
+        },
+        {
+            "message": "Completed",
+            "count": 2
+        },
+        {
+            "message": "Started analyzer",
+            "count": 2
+        },
+        {
+            "message": "Application Started",
+            "count": 1
+        },
+        {
+            "message": "Database Connected",
+            "count": 1
+        },
+        {
+            "message": "High Memory Usage",
+            "count": 1
+        },
+        {
+            "message": "Database Timeout",
+            "count": 1
+        },
+        {
+            "message": "User Login",
+            "count": 1
+        },
+        {
+            "message": "API Connection Failed",
+            "count": 1
+        },
+        {
+            "message": "Disk Usage High",
+            "count": 1
+        }
+    ],
+    "hourly_counts": [
+        {
+            "hour": "09",
+            "count": 9
+        },
+        {
+            "hour": "15",
+            "count": 7
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+  "log_file": "logs/application.log",
+  "output": "reports",
+  "top_errors": 5
+}

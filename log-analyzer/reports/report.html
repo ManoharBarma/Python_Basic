@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Enterprise Log Report</title>
+<style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; padding: 20px; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1, h2 { color: #2c3e50; }
+    .bar-row { display: flex; margin-bottom: 10px; align-items: center; }
+    .bar-label { width: 100px; font-weight: bold; }
+    .bar-value { flex-grow: 1; }
+    ul { list-style-type: none; padding: 0; }
+    li { padding: 5px 0; border-bottom: 1px solid #eee; }
+    .footer { margin-top: 30px; font-size: 0.9em; color: #777; }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Enterprise Log Report</h1>
+    
+    <div class="bar-row">
+        <div class="bar-label">INFO</div>
+        <div class="bar-value"><span style="color: green; font-family: monospace;">█████████████</span></div>
+    </div>
+    <div class="bar-row">
+        <div class="bar-label">WARNING</div>
+        <div class="bar-value"><span style="color: orange; font-family: monospace;">██</span></div>
+    </div>
+    <div class="bar-row">
+        <div class="bar-label">ERROR</div>
+        <div class="bar-value"><span style="color: red; font-family: monospace;">███</span></div>
+    </div>
+
+    <h2>Top Errors</h2>
+    <ul>
+        <li>Database Timeout (1)</li><li>API Connection Failed (1)</li><li>Database Timeout2026-07-18 15:50:32 - LogAnalyzer - INFO - Started analyzer (1)</li>
+    </ul>
+
+    <div class="footer">
+        Generated At<br>
+        2026-07-18 15:52
+    </div>
+</div>
+</body>
+</html>

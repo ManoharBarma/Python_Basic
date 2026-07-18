@@ -1,0 +1,3 @@
+# Requirements for Enterprise Log Analyzer
+# We are primarily using the standard library.
+# Add third-party dependencies here if needed in the future.
